@@ -1,0 +1,11 @@
+header nav div {
+  background-color: rgba(135, 141, 139, 0.171);
+}
+
+header nav div ul li {
+  text-decoration: none;
+}
+
+header nav div ul li a {
+  text-decoration-color: azure;
+}

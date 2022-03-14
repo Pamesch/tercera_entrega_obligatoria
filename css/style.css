@@ -1,0 +1,228 @@
+header nav div {
+  background-color: rgba(135, 141, 139, 0.171);
+}
+header nav div ul li {
+  text-decoration: none;
+}
+header nav div ul li a {
+  text-decoration-color: azure;
+}
+
+section {
+  background-color: rgba(135, 141, 139, 0.171);
+}
+section div {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+section div div div {
+  border-radius: 15px;
+  border-width: 2px;
+}
+section div div div img {
+  display: flex;
+}
+section div div div div {
+  margin: 0px;
+}
+section div div div div h5 {
+  font-family: Cavalier;
+  font-size: 2rem;
+}
+section div div div div p {
+  font-size: medium;
+}
+
+.instagram {
+  background-color: rgba(240, 199, 124, 0.192);
+}
+
+.facebook {
+  background-color: rgba(157, 157, 228, 0.404);
+}
+
+.whatsapp {
+  background-color: rgba(193, 236, 193, 0.432);
+}
+
+footer {
+  padding: 10px 10px 10px 10px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgba(242, 220, 242, 0.719);
+  border-radius: 15px;
+  height: 4em;
+  align-items: center;
+}
+footer ul li {
+  list-style: none;
+}
+footer ul li button {
+  border-radius: 1em;
+  font-family: bellerose light;
+  font-size: 1.5em;
+  padding: 8px 20px 20px 20px;
+  text-align: center;
+  position: center;
+  text-decoration-color: black;
+}
+
+.mas {
+  border-radius: 5%;
+  background-color: aquamarine;
+}
+
+.boton, #botonBuscar {
+  border-radius: 5%;
+  font-family: bellerose light;
+  font-size: 1em;
+  padding: 8px 10px 8px 10px;
+  text-align: center;
+  position: center;
+  text-decoration: none;
+}
+
+.botonHome{
+  border-radius: 20px;
+  font-family: bellerose light;
+  font-size: 1.3em;
+ padding-bottom: 15px ;
+  color: #606060;
+}
+
+/*grid pagina nuestroespacio*/
+
+.tituloEspacio{
+  grid-area: tituloEspacio;
+}
+.parrafoSecundario{
+  grid-area: parrafoSecundario;
+}
+.googleMap{
+  grid-area: mapa
+}
+.imagenesEspacio{
+  grid-area: imagenesEspacio;
+}
+.direccion{
+  grid-area: direccion;
+}
+footer{
+  grid-area: footer;
+}
+
+#Espacio{
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: 10% auto auto 5% auto;
+  grid-template-areas: 
+   "tituloEspacio tituloEspacio"
+   "imagenesEspacio parrafoSecundario"
+   "imagenesEspacio mapa"
+   "direccion direccion"
+   "footer footer";
+   
+   width: 100%;
+   height: 650px;
+   padding-bottom: 1em;
+}
+.imagenesEspacio {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.direccion{
+  display: flex;
+  background-color: rgb(242, 226, 220, 60%);
+  margin: 5px;
+  padding: 15px;
+  font-family: Bellerose light;
+  font-size: 20px;
+  color: #606060;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+div img{
+  padding: 5px;
+}
+
+
+.parrafoSecundario {
+  display: flex;
+  background-color: rgb(242, 226, 220, 60%);
+  margin: 10px;
+  padding: 40px;
+  font-family: Bellerose light;
+  font-size: 1.5em;
+  color: #606060;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.tituloEspacio {
+  display: flex;
+  font-family: Bellerose light;
+  font-size: 35px;
+  color: #606060;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+div iframe{
+  display: flex;
+  height: 265px;
+  width: 1100px;
+  padding: 20px;
+}
+
+span{
+  padding-left: 2em;
+  grid-area: formulario;
+}
+.parrafoContacto{
+  grid-area: texto;
+}
+form{
+  display: flex ;
+  padding: 20px;
+}
+.titulo{
+  font-family: Bellerose light;
+}
+
+
+#columnasContacto{
+  display: grid;
+  padding: 25px;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto auto auto;
+  grid-template-areas: "formulario texto"
+  "formulario texto"
+  "formulario texto";
+ 
+}
+#parrafoContacto{
+  font-size: x-large;
+  text-align: center;
+ 
+}
+
+
+
+.contenedorHistoria{
+  align-content: flex;
+  display: inline-flex;
+  padding: 25px;
+  
+}
+
+
+/*# sourceMappingURL=style.css.map */

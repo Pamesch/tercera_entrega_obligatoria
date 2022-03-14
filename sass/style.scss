@@ -1,0 +1,25 @@
+@import '_header';
+@import '_section';
+@import '_footer';
+
+
+@mixin border-radius{
+    border-radius: 5%;
+    background-color: aquamarine;
+}
+.mas {
+    @include border-radius();
+}
+
+.boton{
+    border-radius: 5%;
+    font-family: bellerose light;
+    font-size: 1em;
+    padding: 8px 10px 8px 10px;
+    text-align: center;
+    position: center;
+    text-decoration: none;
+}
+#botonBuscar{
+    @extend .boton;
+}
